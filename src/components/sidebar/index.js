@@ -18,6 +18,7 @@ export default function Sidebar() {
         />
       </div>
       <div>
+        {/* <SidebarButton title="Login" to="/login" icon={<MdSpaceDashboard />} /> */}
         <SidebarButton title="Feed" to="/feed" icon={<MdSpaceDashboard />} />
         <SidebarButton title="Trending" to="/trending" icon={<FaGripfire />} />
         <SidebarButton title="Player" to="/player" icon={<FaPlay />} />

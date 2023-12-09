@@ -1,0 +1,41 @@
+Image Object:
+    type: "image",
+    url: URL,
+    height: integer,
+    width: integer,
+    id: string
+
+Person Object:
+    type: "person",
+    Display Name: string,
+    followers: integer,
+    image: Image Object (For DP),
+    id: string,
+
+Artist Object:
+    type: "artist",
+    name: string,
+    followers: integer,
+    url: URL,
+    image: Image Object,
+    id: string,
+
+Track Object:
+    type: "track",
+    name: string
+    artists: array of Artist Object,
+    duration_ms: integer,
+    category: enumeration,
+    url: URL,
+    image: Image Object,
+    id: string,
+
+Playlist Object:
+    type: "playlist",
+    name: string,
+    owner: Person Object,
+    description: string,
+    tracks: Array of Track Object,
+    image: Image Object,
+    id: string
+
